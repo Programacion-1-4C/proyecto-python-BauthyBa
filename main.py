@@ -1,4 +1,4 @@
-from funciones import menu
+from funciones import *
 
-if __name__ == "__main__":
-    menu()
+nuevo_usuario()
+while True:
