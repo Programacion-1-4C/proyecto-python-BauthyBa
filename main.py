@@ -22,21 +22,24 @@ while intento != 5:
         else:
             print('Nombre de usuario no identificdo')
 
+salto()
+linea()
+print('|            Bienvenido a el programa seleccione una opcion            |')
 
 while intento == 5:
+
     opciones_iniciales()
     decision = int(input('>>>'))
     if decision == 1:
+        salto()
         ingresar_nuevo_alumno()
     elif decision == 2:
-        sacar_alumno()
-    elif decision == 3:
-        pass
-    elif decision == 4:
+        salto()
         mostrar_alumnos()
-    elif decision == 5:
-        agregar_deuda()
-    elif decision == 6:
-        pass
+    elif decision == 3:
+        salto()
+        gest_kiosko()
+
+
 
 
