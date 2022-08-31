@@ -109,6 +109,7 @@ def gest_kiosko():
         elif operacion == 'bp':
             pos_producto = input('Que producto desea buscar: ')
             if pos_producto in productos:
+                stock = stocks.index(pos_producto)
                     print(f'Si hay: {pos_producto} y Tiene: {stock}')
             else:
                     print('No hay')
